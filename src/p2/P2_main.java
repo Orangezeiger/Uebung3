@@ -6,18 +6,18 @@ public class P2_main {
 
         d = 0;
         if (a == b) {
-            d++;
-            d++;
+            d = d + 1;
+            d = d + 1;
         }else if (a == c){
-            d++;
+            d = d + 1;
         }
 
         if(a + b >= c) {
-            d++;
+            d = d + 1;
         }
 
-        if (a+ b +c > 100) {
-            d++;
+        if (a + b + c > 100) {
+            d = d + 1;
         }
     }
 }
