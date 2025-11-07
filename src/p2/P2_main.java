@@ -2,7 +2,7 @@ package p2;
 
 public class P2_main {
     public static void main(String[] args) {
-        int a = 3,b = 5,c = 7, d = 4;
+        int a = 1,b = 2,c = 3, d = 4;
 
         d = 0;
         if (a == b) {
@@ -19,5 +19,6 @@ public class P2_main {
         if (a + b + c > 100) {
             d = d + 1;
         }
+        System.out.println(d);
     }
 }

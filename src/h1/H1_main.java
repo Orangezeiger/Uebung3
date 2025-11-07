@@ -2,7 +2,7 @@ package h1;
 
 public class H1_main {
     public static void main(String[] args) {
-        double guthaben = 12, monEingang = 23;
+        double guthaben = -100, monEingang = 200;
         int rating = 4;
         boolean warnhinweis = true, negativ = false;
 
