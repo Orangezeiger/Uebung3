@@ -5,11 +5,9 @@ public class P1_main {
         int wuerfel = 4;
         if (wuerfel == 1) {
             System.out.println("Gewonnen");
-        }
-        if (wuerfel == 4) {
+        } else if (wuerfel == 4) {
             System.out.println("Gewonnen");
-        }
-        if (wuerfel == 2) {
+        }  else if (wuerfel == 2) {
             System.out.println("Verloren");
         } else if(wuerfel == 5) {
             System.out.println("Unentschieden");
